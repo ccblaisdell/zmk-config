@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define QWERTY_L 0
-#define NAV_L 0
+#define NAV_L 1
 
 / {
 	keymap {
