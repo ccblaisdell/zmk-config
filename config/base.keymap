@@ -41,7 +41,7 @@
 			bindings = <
                    &kp EXCL     &kp AT        &kp LBRC      &kp RBRC           &kp PIPE           &kp STAR            &kp EQUAL        &kp GT                &kp BSLH      &kp SLASH
                    &kp HASH     &kp C_PREV    &kp LPAR      &kp RPAR           &kp GRAVE          &kp PLUS            &kp MINUS        &kp APOS              &kp DQT       &kp COLON
-                   &kp PRCNT    &kp CARET     &kp LNKT      &kp RBKT           &kp TILDE          &kp AMPS            &kp UNDER        &kp LT                &kp GT        &kp QMARK
+                   &kp PRCNT    &kp CARET     &kp LBKT      &kp RBKT           &kp TILDE          &kp AMPS            &kp UNDER        &kp LT                &kp GT        &kp QMARK
 				 /*&            &*/           &trans        &trans             &trans             &trans              &kp BSPC         &trans    /* &             &*/
 			>;
 		};
