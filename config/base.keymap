@@ -31,7 +31,8 @@
 			bindings = <
                    &kp N1       &kp N2        &kp N3        &kp N4             &kp N5             &kp N6              &kp N7           &kp N8                &kp N9        &kp N0
                    &trans       &kp C_PREV    &kp C_PP      &kp C_NEXT         &kp C_VOL_UP       &kp LEFT            &kp DOWN         &kp UP                &kp RIGHT     &trans
-                   &sk LS       &sk LC        &sk LA        &sk LG             &kp C_VOL_DN       &kp HOME            &kp PG_DN        &kp PG_UP             &kp END       &trans
+                //    &sk LS       &sk LC        &sk LA        &sk LG             &kp C_VOL_DN       &kp HOME            &kp PG_DN        &kp PG_UP             &kp END       &trans
+                   &trans       &trans        &trans        &trans             &kp C_VOL_DN       &kp HOME            &kp PG_DN        &kp PG_UP             &kp END       &trans
 				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /* &             &*/
 			>;
 		};
@@ -41,7 +42,7 @@
 			bindings = <
                    &kp EXCL     &kp AT        &kp LBRC      &kp RBRC           &kp PIPE           &kp STAR            &kp EQUAL        &kp GT                &kp BSLH      &kp SLASH
                    &kp HASH     &kp C_PREV    &kp LPAR      &kp RPAR           &kp GRAVE          &kp PLUS            &kp MINUS        &kp APOS              &kp DQT       &kp COLON
-                   &kp PREC     &kp CARET     &sk LNKT      &sk RBKT           &kp TILDE          &kp AMPS            &kp UNDER        &kp LT                &kp GT        &kp QMARK
+                   &kp PREC     &kp CARET     &kp LNKT      &kp RBKT           &kp TILDE          &kp AMPS            &kp UNDER        &kp LT                &kp GT        &kp QMARK
 				 /*&            &*/           &trans        &trans             &trans             &trans              &kp BSPC         &trans    /* &             &*/
 			>;
 		};
