@@ -39,6 +39,11 @@
         COMBO(lalt,  &kp LALT,  22 23, 50)
         COMBO(ralt,  &kp RALT,  26 27, 50)
         COMBO(rctrl, &kp LCTRL, 27 28, 50)
+
+        // Some experimental combos to get to fewer thumb keys
+        COMBO(lgui, &kp LGUI, 13 23, 50)
+        COMBO(rgui, &kp RGUI, 16 26, 50)
+        COMBO(tab,  &kp TAB,  17 27, 50)
     };
 
 	keymap {
@@ -50,7 +55,7 @@
                    &kp Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
                    &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp L         &kp SEMI
                    &kp Z        &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &kp SLASH
-				 /*&            &*/           &kp LGUI      &kp LSHIFT         &lt SYM_L ESC      &lt NAV_L ENTER     &kp SPACE        &mt LGUI TAB    /* &             &*/
+				 /*&            &*/           &kp LSHIFT    &lt SYM_L ESC      &lt SYM_L ESC      &lt NAV_L ENTER     &lt NAV_L ENTER  &kp SPACE         /* &             &*/
 			>;
 		};
 
