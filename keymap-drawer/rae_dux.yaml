@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
-  - D
-  - F
+  - '&hml LCTRL A'
+  - '&hml LALT S'
+  - '&hml LGUI D'
+  - '&hml LSHFT F'
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - '&hmr RSHFT J'
+  - '&hmr RGUI K'
+  - '&hmr RALT L'
+  - '&hmr RCTL SEMI'
   - Z
   - X
   - C
