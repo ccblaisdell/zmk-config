@@ -20,7 +20,7 @@
 #define FUN_L 3
 
 /* left-hand HRMs, e.g. `&hml LSHIFT F` */
-\ ZMK_HOLD_TAP(hml,
+/ ZMK_HOLD_TAP(hml,
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;                // repeat on tap-into-hold
@@ -31,7 +31,7 @@
 )
 
 /* right-hand HRMs, e.g. `&hmr LSHIFT J` */
-\ ZMK_HOLD_TAP(hmr,
+ZMK_HOLD_TAP(hmr,
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;                // repeat on tap-into-hold
