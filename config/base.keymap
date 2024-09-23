@@ -44,9 +44,9 @@ ZMK_HOLD_TAP(hmr,
 )
 
 /**
-Home row mods will be CAGS, Control Alt Gui Shift on the left hand side
-                      SGAC, inverted on the left
-Shift in center, then GUI, Alt under the ring finger, and Control under the pinky
+Home row mods will be CCAG, Shift Control Alt Gui on the left hand side
+                      GACS, inverted on the right
+GUI in center, then Alt, Control under the ring finger, and Shift under the pinky
  */
 
 / {
