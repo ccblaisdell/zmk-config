@@ -10,16 +10,16 @@ layers:
   - I
   - O
   - P
-  - '&hml LCTRL A'
-  - '&hml LALT S'
-  - '&hml LGUI D'
-  - '&hml LSHFT F'
+  - '&hml LSHFT A'
+  - '&hml LCTRL S'
+  - '&hml LALT D'
+  - '&hml LGUI F'
   - G
   - H
-  - '&hmr RSHFT J'
-  - '&hmr RGUI K'
-  - '&hmr RALT L'
-  - '&hmr RCTL SEMI'
+  - '&hmr RGUI J'
+  - '&hmr RALT K'
+  - '&hmr RCTL L'
+  - '&hmr RSHFT SEMI'
   - Z
   - X
   - C
@@ -57,10 +57,10 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: LSHFT, h: sticky}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOL DN
   - HOME
   - PG DN
