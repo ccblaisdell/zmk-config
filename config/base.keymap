@@ -14,6 +14,12 @@
 #define SYM_L 2
 #define FUN_L 3
 
+/**
+Home row mods will be CCAG, Shift Control Alt Gui on the left hand side
+                      GACS, inverted on the right
+GUI in center, then Alt, Control under the ring finger, and Shift under the pinky
+ */
+
 // For Home row mods on a 36 key board
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/36.h"                                     // key-position labels
@@ -43,11 +49,13 @@ ZMK_HOLD_TAP(hmr,
     hold-trigger-on-release;             // delay positional check until key-release
 )
 
-/**
-Home row mods will be CCAG, Shift Control Alt Gui on the left hand side
-                      GACS, inverted on the right
-GUI in center, then Alt, Control under the ring finger, and Shift under the pinky
- */
+ /* Caps-word, num-word and smart-mouse */
+
+// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
+ZMK_MOD_MORPH(smart_shft,
+    bindings = <&sk LSHFT>, <&caps_word>;
+    mods = <(MOD_LSFT)>;
+)
 
 / {
     
@@ -102,7 +110,7 @@ GUI in center, then Alt, Control under the ring finger, and Shift under the pink
                    &kp Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
                    &hml LSHFT A &hml LCTRL S  &hml LALT D   &hml LGUI F        &kp G              &kp H               &hmr RGUI J      &hmr RALT K           &hmr RCTL L   &hmr RSHFT SEMI
                    &kp Z        &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &kp SLASH
-				 /*&            &*/           &kp LGUI      &kp LSHIFT         &lt SYM_L ESC      &lt NAV_L ENTER     &kp SPACE        &mt RGUI TAB /* &             &*/
+				 /*&            &*/           &kp LGUI      &&smart_shft       &lt SYM_L ESC      &lt NAV_L ENTER     &kp SPACE        &mt RGUI TAB /* &             &*/
 			>;
 		};
 
