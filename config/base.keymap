@@ -100,7 +100,7 @@ Shift in center, then GUI, Alt under the ring finger, and Control under the pink
 		qwerty_layer {
 			bindings = <
                    &kp Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
-                   &hml LCTRL A &hml LALT S   &hml LGUI D   &hml LSHFT F       &kp G              &kp H               &hmr RSHFT J     &hmr RGUI K           &hmr RALT L   &hmr RCTL SEMI
+                   &hml LSHFT A &hml LCTRL S  &hml LALT D   &hml LGUI F        &kp G              &kp H               &hmr RGUI J      &hmr RALT K           &hmr RCTL L   &hmr RSHFT SEMI
                    &kp Z        &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &kp SLASH
 				 /*&            &*/           &kp LGUI      &kp LSHIFT         &lt SYM_L ESC      &lt NAV_L ENTER     &kp SPACE        &mt RGUI TAB /* &             &*/
 			>;
@@ -111,7 +111,7 @@ Shift in center, then GUI, Alt under the ring finger, and Control under the pink
 			bindings = <
                    &kp N1       &kp N2        &kp N3        &kp N4             &kp N5             &kp N6              &kp N7           &kp N8                &kp N9        &kp N0
                    &trans       &kp C_PREV    &kp C_PP      &kp C_NEXT         &kp C_VOL_UP       &kp LEFT            &kp DOWN         &kp UP                &kp RIGHT     &trans
-                   &sk LSHFT    &sk LCTRL     &sk LALT      &sk LGUI           &kp C_VOL_DN       &kp HOME            &kp PG_DN        &kp PG_UP             &kp END       &trans
+                   &trans       &trans        &trans        &trans             &kp C_VOL_DN       &kp HOME            &kp PG_DN        &kp PG_UP             &kp END       &trans
 				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /* &             &*/
 			>;
 		};
