@@ -149,8 +149,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 16]
-  k: '&caps_word'
 - p: [21, 22]
   k: LCTRL
 - p: [22, 23]
