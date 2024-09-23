@@ -31,7 +31,7 @@ layers:
   - .
   - /
   - LGUI
-  - LSHIFT
+  - '&smart_shft'
   - {t: ESC, h: sym}
   - {t: ENTER, h: nav}
   - SPACE
