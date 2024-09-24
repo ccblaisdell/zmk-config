@@ -10,16 +10,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
-  - D
-  - F
+  - '&hml LSHFT A'
+  - '&hml LCTRL S'
+  - '&hml LALT D'
+  - '&hml LGUI F'
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - '&hmr RGUI J'
+  - '&hmr RALT K'
+  - '&hmr RCTL L'
+  - '&hmr RSHFT SEMI'
   - Z
   - X
   - C
@@ -31,7 +31,7 @@ layers:
   - .
   - /
   - LGUI
-  - LSHIFT
+  - '&smart_shft'
   - {t: ESC, h: sym}
   - {t: ENTER, h: nav}
   - SPACE
@@ -57,10 +57,10 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: LSHFT, h: sticky}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOL DN
   - HOME
   - PG DN
@@ -148,8 +148,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 16]
-  k: '&caps_word'
 - p: [21, 22]
   k: LCTRL
 - p: [22, 23]
