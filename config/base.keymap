@@ -93,7 +93,7 @@ ZMK_MOD_MORPH(smart_shft,
           ╰───────╮ 30  31  32 │ │ 33  34  35 ╭───────╯
                   ╰────────────╯ ╰────────────╯        */
 
-        COMBO(qcombo, &kp Q, 10, 20, 50)
+        COMBO(qcombo, &kp Q, 10 20, 50)
     };
 
 	keymap {
