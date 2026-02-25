@@ -51,12 +51,6 @@ ZMK_HOLD_TAP(hmr,
 
  /* Caps-word, num-word and smart-mouse */
 
-// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
-ZMK_MOD_MORPH(smart_shft,
-    bindings = <&kp LSHFT>, <&caps_word>;
-    mods = <(MOD_LSFT)>;
-)
-
 / {
     
     behaviors {
@@ -67,6 +61,13 @@ ZMK_MOD_MORPH(smart_shft,
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
        };
+
+        smart_shft: tap_dance_mod_tap {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&caps_word>;
+        };
     };
 
     combos {
