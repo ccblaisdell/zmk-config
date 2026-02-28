@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: obosob/arch_36}
+layout: {zmk_keyboard: rae_dux}
 layers:
   qwerty:
   - Q
@@ -126,11 +126,11 @@ layers:
   - F6
   - F7
   - F8
-  - Gui+ `
-  - Sft+Ctl+ TAB
+  - Gui+`
+  - Sft+Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ TAB
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -140,8 +140,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - Gui+ BSPC
+  - Alt+BSPC
+  - Gui+BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
