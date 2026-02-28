@@ -7,10 +7,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c # v0.3.0
+      revision: 27afcb11efff6345d0ceb875e85c2de0673123f6 # main snapshot (2026-02-28)
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
-      revision: b1548efd28d2cc64b9506654e6883695c258190f # v0.3.0
+      revision: e1d928de136b00e069a41129885d56e5a79e5c1e # main snapshot (2026-02-28)
   self:
     path: config
