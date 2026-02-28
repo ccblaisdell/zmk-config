@@ -2,5 +2,5 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    # Pinned to ZMK v0.3.0 commit to avoid breakage from upstream main changes.
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@edf5c0814fd3ea202e43aad2d68fd32e882a518c
+    # Pinned to a specific upstream main commit (Zephyr 4.1 era) for deterministic builds.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@27afcb11efff6345d0ceb875e85c2de0673123f6
