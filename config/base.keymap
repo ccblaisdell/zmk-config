@@ -51,6 +51,10 @@ ZMK_HOLD_TAP(hmr,
 
  /* Caps-word, num-word and smart-mouse */
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>;
+};
+
 / {
     
     behaviors {
