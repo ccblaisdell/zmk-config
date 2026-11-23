@@ -118,10 +118,10 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT PRV
-  - BT NXT
-  - BT CLR
-  - BT CLR ALL
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
   - F5
   - F6
   - F7
@@ -136,7 +136,7 @@ layers:
   - F2
   - F3
   - F4
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
