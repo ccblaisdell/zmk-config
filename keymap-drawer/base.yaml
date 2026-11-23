@@ -136,18 +136,18 @@ layers:
   - F2
   - F3
   - F4
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+BSPC
   - Gui+BSPC
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
 combos:
 - p: [21, 22]
   k: LCTRL
